@@ -1,0 +1,25 @@
+
+#banner{
+    width: 100%;
+}
+.principal{
+    background: #aaaaaa;
+    padding: 5px;
+}
+.contenido-centralizado{
+    text-align: center;
+}
+.diferenciales{
+    background: #cccccc;
+    padding: 30px;
+}
+
+#banner-secundario{
+    width: 30%;
+    margin-left: 30%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+}
