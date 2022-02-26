@@ -3,36 +3,97 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Registro de Estudiantes</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Barberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1 class="titulo-principal">Mi portafolio</h1>
-    </header>
-    <img id="banner" src="img/banner2.jpg">
-    <div class="principal">
-       
-        <h2 class="contenido-centralizado">Institución Educativa Nro 0663 Pablo Chavez Villaverde</h1>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolore dicta sit porro illum. Assumenda
-            porro
-            consequuntur ex quis optio? Numquam <strong><i>reiciendis</i> </strong> , quam quibusdam molestiae vero quod
-            odio.
-        </p>
-    </div>
+    <header class="header">
+        <div class="caja">
+            <h1>
+                <img src="imagenes/logo.png" alt="Logo de la barbería Alura">
+            </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <div class="diferenciales">
-        <h3 class="contenido-centralizado">Diferenciales</h1>
-        <ul>
-            <li>Diferencial 1</li>
-            <li>Diferencial 2</li>
-            <li>Diferencial 3</li>
-            <li>Diferencial 4</li>
-        </ul>
-        <img id="banner-secundario" src="img/banner.jpg">
-    </div>
+    </header>
+
+    <img class="banner" src="img/banner2.jpg">
+
+    <main>
+        <section class="principal">
+
+            <h2 class="titulo-principal">Barbería Alura atiende tus necesidades </h1>
+                <img class="utensilios" src="imagenes/utensilios.jpg" alt="Utensilios de la barberia">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolore dicta sit porro illum.
+                    Assumenda
+                    porro
+                    consequuntur ex quis optio? Numquam <strong><i>reiciendis</i> </strong> , quam quibusdam molestiae
+                    vero quod
+                    odio.
+                    <br><br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eum ea temporibus vel libero!
+                    Quibusdam explicabo adipisci beatae alias corporis, blanditiis quae accusantium officia perspiciatis
+                    odio? Ducimus labore ratione laborum!
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quia modi aspernatur. In, nam nemo odio
+                    debitis magni exercitationem est. Earum maxime possimus quaerat ullam fugiat aspernatur eius
+                    repellendus accusantium.
+                </p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento esta ubicado en el corazón de la ciudad</p>
+
+            <div class="mapa-contenido">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4499774665333!2d-46.63452058538328!3d-23.588189868467907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1ses-419!2spe!4v1645668393170!5m2!1ses-419!2spe"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+           
+        </section>
+
+        <section class="diferenciales">
+            <h3 class="titulo-principal">Diferenciales</h1>
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
+                        <li class="items">Atención personalizada a los clientes</li>
+                        <li class="items">Espacio diferenciado</li>
+                        <li class="items">Localización</li>
+                        <li class="items">Profesionales calificados</li>
+                        <li class="items">Puntualidad</li>
+                        <li class="items">Limpieza</li>
+                    </ul><img class="imagen-diferenciales" src="img/banner.jpg">
+                </div>
+              
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Vx99n8pTl4g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <h1><img src="imagenes/logo-blanco.png" alt="Logo de la barbería Alura"></h1>
+        <p class="copyrigt"> &copy Copyrigth Barberia Alura -2022 </p>
+    </footer>
 
 </body>
 
