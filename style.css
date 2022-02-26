@@ -224,6 +224,12 @@ td, th{
     nav{
         position: static;
     }
+    nav a{
+        font-size: 15px;
+    }
+    nav ul{
+        padding-bottom: 5px;
+    }
 
    .caja, .principal, .mapa-contenido, 
    .contenido-diferenciales, .video{
